@@ -1,4 +1,4 @@
-body{
+html, body{
     background-color: rgb(0, 0, 0);
     color: rgb(7, 255, 255);
 }
@@ -23,9 +23,19 @@ h1{
 }
 
 p{
-
-
+    text-align: justify;
+    font-size: 120%
+    
 }
+
+
+
+.group1 {
+
+    padding-left: 3%;
+  
+
+}   
 
 a{
     background-color: rgb(7, 255, 255);
@@ -37,5 +47,12 @@ a{
     
 } 
 a:hover{
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
+}
+
+nav{
+
+    border-bottom: 3px solid cyan; 
+    padding-bottom: 19px; 
+
 }
